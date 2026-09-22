@@ -438,6 +438,36 @@ const PROJECTS = [
   },
 
   {
+    name: "DutchDaily",
+    status: "In development",
+    tagline: "Learn Dutch from today's news: tap any word in a live transcript and keep it for review",
+    problem:
+      "People learning Dutch hit a wall between textbook sentences and real spoken Dutch. The news is " +
+      "the best practice material there is, but a two-minute clip goes past too fast. Looking up a word " +
+      "means pausing, switching apps and losing your place, and the words you look up are forgotten by " +
+      "the next day. Learners end up either sticking to easy material or giving up on real content.",
+    outcome:
+      "DutchDaily turns short Dutch news videos into interactive lessons. The Dutch transcript scrolls in " +
+      "sync with the video, with an English line under each sentence. Tapping any word pauses the clip and " +
+      "opens a plain-English definition with pronunciation and an example sentence, and one more tap saves " +
+      "it to a personal review deck. An AI pipeline prepares each video in advance: it pulls the captions, " +
+      "translates every line, reduces words to their dictionary form and has a language model write the " +
+      "learner-friendly definitions and examples. The app is being built sprint by sprint with AI-assisted " +
+      "development. The content pipeline and the player, transcript and word-lookup screens are designed.",
+    highlights: [
+      "<strong>Real Dutch, not textbook Dutch</strong> &mdash; new short news clips are added automatically, so there is always fresh, current material at a realistic speed.",
+      "<strong>One tap from confused to understood</strong> &mdash; tap a word and the video pauses and shows its meaning, part of speech, pronunciation and an example, then resumes when you close it.",
+      "<strong>AI writes the dictionary</strong> &mdash; a language model creates definitions and example sentences for the most frequent words in the transcripts. Words it can't handle confidently are flagged for manual review instead of guessed.",
+      "<strong>Remembers what you forget</strong> &mdash; saved words go into a spaced-repetition deck that brings each one back just before you would lose it.",
+      "<strong>Progress you can see</strong> &mdash; streaks, XP, a weekly activity heatmap and words-learned trends, all calculated on the device.",
+      "<strong>Built with AI, managed like a product</strong> &mdash; the work is split into small, testable sprint tasks with written acceptance criteria. An AI coding assistant builds each task against those specs."
+    ],
+    mockup: '<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg"><rect x="0" y="0" width="800" height="420" fill="var(--mk-bg)"/><rect x="24" y="20" width="360" height="200" rx="12" fill="var(--mk-text-dim)" opacity="0.35"/><circle cx="204" cy="112" r="24" fill="var(--mk-surface)"/><path d="M197 100 L197 124 L217 112 Z" fill="var(--mk-text)"/><rect x="40" y="196" width="328" height="5" rx="2.5" fill="var(--mk-surface)"/><rect x="40" y="196" width="125" height="5" rx="2.5" fill="var(--mk-accent)"/><text x="40" y="186" font-family="sans-serif" font-size="12" fill="var(--mk-text)">1:24 / 3:42</text><rect x="326" y="172" width="42" height="18" rx="9" fill="var(--mk-surface)"/><text x="335" y="185" font-family="sans-serif" font-size="11" fill="var(--mk-text)">0.8×</text><rect x="24" y="232" width="92" height="22" rx="11" fill="var(--mk-accent-soft)"/><text x="36" y="247" font-family="sans-serif" font-size="12" fill="var(--mk-text)">Scene 3 / 8</text><text x="126" y="248" font-family="sans-serif" font-size="13" fill="var(--mk-text)">Klimaatplan: nieuwe doelen</text><rect x="344" y="232" width="40" height="22" rx="11" fill="var(--mk-warn)"/><text x="355" y="247" font-family="sans-serif" font-size="12" fill="var(--mk-bg)">B1</text><text x="24" y="282" font-family="sans-serif" font-size="11" fill="var(--mk-text-dim)">1:06</text><text x="24" y="300" font-family="sans-serif" font-size="13" fill="var(--mk-text-dim)">De uitstoot moet flink omlaag.</text><rect x="24" y="314" width="360" height="72" rx="12" fill="var(--mk-surface)" stroke="var(--mk-accent)" stroke-width="1.5"/><circle cx="44" cy="332" r="4" fill="var(--mk-accent)"/><text x="54" y="336" font-family="sans-serif" font-size="11" fill="var(--mk-accent)">1:18</text><text x="40" y="356" font-family="sans-serif" font-size="14" fill="var(--mk-text)">Dat betekent</text><rect x="126" y="342" width="84" height="20" rx="5" fill="var(--mk-accent-soft)"/><text x="130" y="356" font-family="sans-serif" font-size="14" fill="var(--mk-text)">ingrijpende</text><text x="216" y="356" font-family="sans-serif" font-size="14" fill="var(--mk-text)">maatregelen.</text><text x="40" y="376" font-family="sans-serif" font-size="12" font-style="italic" fill="var(--mk-text-dim)">That means drastic measures.</text><rect x="408" y="20" width="368" height="380" rx="14" fill="var(--mk-surface)" stroke="var(--mk-line)" stroke-width="1"/><rect x="574" y="32" width="36" height="4" rx="2" fill="var(--mk-line)"/><text x="428" y="74" font-family="sans-serif" font-size="24" font-weight="bold" fill="var(--mk-text)">ingrijpend</text><text x="428" y="96" font-family="sans-serif" font-size="12" fill="var(--mk-text-dim)">adjective</text><rect x="672" y="54" width="84" height="32" rx="10" fill="var(--mk-good)"/><text x="690" y="75" font-family="sans-serif" font-size="13" fill="var(--mk-bg)">✓ Saved</text><circle cx="442" cy="126" r="14" fill="var(--mk-accent-soft)"/><path d="M436 121 L436 131 L441 131 L447 136 L447 116 L441 121 Z" fill="var(--mk-accent)"/><text x="466" y="131" font-family="sans-serif" font-size="13" font-style="italic" fill="var(--mk-text-dim)">/ɪn.ˈɣrɛi.pənt/</text><line x1="428" y1="156" x2="756" y2="156" stroke="var(--mk-line)" stroke-width="1"/><text x="428" y="182" font-family="sans-serif" font-size="11" fill="var(--mk-text-dim)">MEANING</text><text x="428" y="204" font-family="sans-serif" font-size="14" fill="var(--mk-text)">Far-reaching, drastic; having a major</text><text x="428" y="224" font-family="sans-serif" font-size="14" fill="var(--mk-text)">impact on a situation.</text><text x="428" y="258" font-family="sans-serif" font-size="11" fill="var(--mk-text-dim)">EXAMPLE</text><rect x="428" y="268" width="328" height="60" rx="10" fill="var(--mk-accent-soft)"/><rect x="428" y="268" width="3" height="60" fill="var(--mk-accent)"/><text x="442" y="292" font-family="sans-serif" font-size="13" fill="var(--mk-text)">De veranderingen zijn ingrijpend.</text><text x="442" y="314" font-family="sans-serif" font-size="12" font-style="italic" fill="var(--mk-text-dim)">The changes are drastic.</text><text x="428" y="366" font-family="sans-serif" font-size="12" fill="var(--mk-text-dim)">Added to your review deck · due tomorrow</text></svg>',
+    tech: ["Flutter", "LLM-generated definitions", "Prompt design", "Machine translation (DeepL)", "NLP lemmatisation (spaCy)", "Python pipeline", "Supabase", "Offline-first (SQLite)", "Spaced repetition"],
+    links: []
+  },
+
+  {
     name: "HomeTag",
     status: "In development",
     tagline: "A home inventory app you update by tapping a tag and saying what changed",
